@@ -59,14 +59,15 @@ public class Rope : MonoBehaviour
 			}
 			Link CurrentLink=	link.GetComponent<Link>();
 			CurrentLink.index = i;
+		
 			CurrentLink.remove += (int i) =>
 			{
-			
+				
 				ropeNodes.RemoveRange(i, ropeNodes.Count - i);
 				line.positionCount =i;
 			};
 			ropeNodes.Add(CurrentLink);
-			
+			if (ropeNodes.Count == 0) return;
 		}
 
 	}

@@ -13,6 +13,7 @@ public class Toast : MonoBehaviour
             gameObject.GetComponent<SpriteRenderer>().color = Color.red;
             collision.gameObject.SetActive(false);
             //TODO WIN Handler
+
         }
     }
 }
