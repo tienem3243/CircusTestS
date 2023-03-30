@@ -61,7 +61,7 @@ public class Rope : MonoBehaviour
 			CurrentLink.index = i;
 			CurrentLink.remove += (int i) =>
 			{
-				Debug.Log(i);
+			
 				ropeNodes.RemoveRange(i, ropeNodes.Count - i);
 				line.positionCount =i;
 			};
