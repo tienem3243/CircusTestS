@@ -9,10 +9,9 @@ public class Link : MonoBehaviour
     public removeFromChain remove;
     public int index;
 
+
     private void OnDisable()
     {
         remove.Invoke(index);
     }
-
- 
 }

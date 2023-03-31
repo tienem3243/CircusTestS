@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -15,8 +16,13 @@ public class Rope : MonoBehaviour
 	public int links = 7;
 	public LineRenderer line;
 	private List<Link> ropeNodes;
-	void Start()
+	private  Rope instance;
+
+    public Rope Instance { get => instance; set => instance = value; }
+
+    void Start()
 	{
+		instance = this;
 		ropeNodes = new List<Link>();
 		GenerateRope();
 	}
@@ -63,13 +69,24 @@ public class Rope : MonoBehaviour
 			CurrentLink.remove += (int i) =>
 			{
 				
-				ropeNodes.RemoveRange(i, ropeNodes.Count - i);
-				line.positionCount =i;
+                if (ropeNodes.Count >= i)
+                {			
+					ropeNodes.RemoveRange(i, ropeNodes.Count - i);
+
+					/*CleanTheCut(this);*/
+				}
+				
 			};
 			ropeNodes.Add(CurrentLink);
-			if (ropeNodes.Count == 0) return;
+			
 		}
 
 	}
+	private void CleanTheCut(Rope rope)
+	{
+		rope.Instance.ropeNodes.Clear();
+		rope.Instance.line.positionCount = 0;
+	}
+   
 
 }
