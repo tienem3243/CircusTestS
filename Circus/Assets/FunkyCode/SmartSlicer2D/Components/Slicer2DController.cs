@@ -4,7 +4,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-
+using Inputs=UnityEngine.Input; 
 namespace Slicer2D {
 
 	public class Slicer2DController : MonoBehaviour {
@@ -119,13 +119,14 @@ namespace Slicer2D {
 		}
 		
 		public void LateUpdate() {
+		
 			if (BlockedByUI() == false) {
 				InputController.zPosition = visuals.zPosition;
 				input.Update();
 			}
-
-			Vector2 pos = input.GetInputPosition();
-
+		
+				Vector2 pos = input.GetInputPosition();
+		
 			switch (sliceType) {	
 				case SliceType.Linear:
 					linearControllerObject.Update();

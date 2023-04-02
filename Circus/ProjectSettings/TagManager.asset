@@ -43,3 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Weight
+    uniqueID: 3655102545
+    locked: 0
+  - name: Rope
+    uniqueID: 2783259823
+    locked: 0

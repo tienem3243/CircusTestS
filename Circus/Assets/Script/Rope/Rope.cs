@@ -12,8 +12,8 @@ public class Rope : MonoBehaviour
 	public GameObject linkPrefab;
 
 	public Weight weigth;
-
-	public int links = 7;
+	public bool isUseMotor;
+	public int linkAmount = 7;
 	public LineRenderer line;
 	private List<Link> ropeNodes;
 	private  Rope instance;
@@ -48,16 +48,23 @@ public class Rope : MonoBehaviour
 
     void GenerateRope()
 	{
+		float distanceToHook = Vector2.Distance(weigth.transform.position, hook.transform.position);
+		float y = distanceToHook / linkAmount;
+
 		Rigidbody2D previousRB = hook;
-		for (int i = 0; i < links; i++)
+		for (int i = 0; i < linkAmount; i++)
 		{
 			GameObject link = Instantiate(linkPrefab, transform);
 			HingeJoint2D joint = link.GetComponent<HingeJoint2D>();
+			joint.useMotor = isUseMotor;
 			joint.connectedBody = previousRB;
-
-			if (i < links - 1)
+			joint.connectedAnchor = new Vector2(0, y);
+			if (i == 0) joint.connectedAnchor = Vector2.zero;
+		
+			if (i < linkAmount - 1)
 			{
 				previousRB = link.GetComponent<Rigidbody2D>();
+		
 			}
 			else
 			{
@@ -65,7 +72,7 @@ public class Rope : MonoBehaviour
 			}
 			Link CurrentLink=	link.GetComponent<Link>();
 			CurrentLink.index = i;
-		
+			
 			CurrentLink.remove += (int i) =>
 			{
 				

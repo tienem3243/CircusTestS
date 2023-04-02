@@ -7,6 +7,7 @@ namespace Utilities2D {
 	/// <summary>
 	/// Representation of 2D points
 	/// </summary>
+	[System.Serializable]
 	public class Vector2D {
 		public double x;
 		public double y;

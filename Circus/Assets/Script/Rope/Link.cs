@@ -5,10 +5,11 @@ using UnityEngine;
 
 public class Link : MonoBehaviour
 {
-    public delegate void removeFromChain(int i);
+  
     public removeFromChain remove;
     public int index;
 
+    public delegate void removeFromChain(int i);
 
     private void OnDisable()
     {
