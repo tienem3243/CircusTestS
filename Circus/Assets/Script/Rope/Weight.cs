@@ -19,6 +19,7 @@ public class Weight : MonoBehaviour
         }
         Rig = GetComponent<Rigidbody2D>();
         BreakEffect obj = Instantiate(breakAbleObject.gameObject, transform).GetComponent<BreakEffect>();
+      
         obj.GetComponent<SpriteRenderer>().sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
         OnBreaking.AddListener(() =>
         {
