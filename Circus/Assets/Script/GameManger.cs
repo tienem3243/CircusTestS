@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class GameManger : MonoBehaviourSingleton<GameManger>
+public class GameManger : MonoBehaviourSingletonPersistent<GameManger>
 {
   
     public bool isWin = false;
