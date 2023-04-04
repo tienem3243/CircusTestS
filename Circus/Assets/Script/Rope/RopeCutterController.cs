@@ -7,7 +7,7 @@ public class RopeCutterController : MonoBehaviour
     // Update is called once per frame
     void Update()
 	{
-		if (Input.GetMouseButton(0))
+		if (Input.GetMouseButton(0)&&GameManger.Instance.canCut)
 		{
 			RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 			if (hit.collider != null)

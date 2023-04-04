@@ -6,14 +6,12 @@ public class Thorn : MonoBehaviour
 {
     [SerializeField]GameObject thorColission;
  
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Candy"))
+        if (collision.gameObject.CompareTag("Candy"))
         {
-           
-            gameObject.GetComponent<SpriteRenderer>().color = Color.red;
-            collision.GetComponent<Weight>().OnBreaking.Invoke();
-      
+            collision.gameObject.GetComponent<Weight>().OnBreaking.Invoke();
         }
     }
 }

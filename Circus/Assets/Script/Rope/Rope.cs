@@ -48,8 +48,8 @@ public class Rope : MonoBehaviour
 
     void GenerateRope()
 	{
-		float distanceToHook = Vector2.Distance(weigth.transform.position, hook.transform.position);
-		float y = distanceToHook / linkAmount;
+	/*	float distanceToHook = Vector2.Distance(weigth.transform.position, hook.transform.position);
+		float y = distanceToHook / linkAmount;*/
 
 		Rigidbody2D previousRB = hook;
 		for (int i = 0; i < linkAmount; i++)
@@ -58,8 +58,8 @@ public class Rope : MonoBehaviour
 			HingeJoint2D joint = link.GetComponent<HingeJoint2D>();
 			joint.useMotor = isUseMotor;
 			joint.connectedBody = previousRB;
-			joint.connectedAnchor = new Vector2(0, y);
-			if (i == 0) joint.connectedAnchor = Vector2.zero;
+	
+			if (i == 0) joint.connectedAnchor = new Vector2(0,0.2f);
 		
 			if (i < linkAmount - 1)
 			{
