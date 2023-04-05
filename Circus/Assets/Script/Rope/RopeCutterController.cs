@@ -1,7 +1,7 @@
 using UnityEngine;
 using Slicer2D;
 using Input = UnityEngine.Input;
-
+using Manager;
 public class RopeCutterController : MonoBehaviour
 {
     // Update is called once per frame
