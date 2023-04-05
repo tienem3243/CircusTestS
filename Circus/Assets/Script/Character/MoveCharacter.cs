@@ -46,7 +46,7 @@ public class MoveCharacter : MonoBehaviour
     }
     protected virtual void FlipCharc()
     {
-        if (!Turn() && isfaceRight || Turn() && !isfaceRight)
+        if(!Turn() && isfaceRight || Turn() && !isfaceRight)
         {
             isfaceRight = !isfaceRight;
             Vector3 LocalScale = transform.parent.localScale;

@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class EatItem : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D collision)
+  
+    protected virtual void OnTriggerEnter2D(Collider2D coll)
     {
-        if (collision.gameObject.CompareTag("Star"))
-            GameManger.Instance.countStart++;
+        if (!coll.CompareTag("Star")) return;
+        GameManger.Instance.countStart++;
+        coll.gameObject.SetActive(false);
     }
 }

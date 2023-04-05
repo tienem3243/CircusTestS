@@ -1,7 +1,7 @@
 using Slicer2D;
 using UnityEngine;
 using UnityEngine.Events;
-
+using InteractiveObj;
 public class Weight : MonoBehaviour
 {
 	public UnityEvent OnBreaking;

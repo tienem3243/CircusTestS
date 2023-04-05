@@ -4,40 +4,44 @@ using UnityEngine;
 using Slicer2D;
 using Utilities2D;
 using DG.Tweening;
-public class BreakEffect : MonoBehaviour
+namespace InteractiveObj
 {
-    public List<Transform> listSlice;
-    public Sliceable2D sliceableObj;
-     List<Vector2D> sliceNode;
-    public Rigidbody2D rib;
-    private void Start()
+    public class BreakEffect : MonoBehaviour
     {
-        sliceNode = new();
-        rib.simulated = false;
-
-
-    }
-    [ContextMenu("slice")]
-    public void Break()
-    {
-        if (rib== null) return;
-        rib.simulated = true;
-        Slicer2D.Debug.Log("Slice");
-
-        foreach(var x in listSlice)
+        public List<Transform> listSlice;
+        public Sliceable2D sliceableObj;
+        List<Vector2D> sliceNode;
+        public Rigidbody2D rib;
+        private void Start()
         {
-            sliceNode.Add(new Vector2D(x.position));
+            sliceNode = new();
+            rib.simulated = false;
+
+
         }
-       
-        sliceableObj.AddEvent((Slice2D s)=>{
-            List<GameObject> gameObjects = s.GetGameObjects();
-            foreach(var x in gameObjects)
+        [ContextMenu("slice")]
+        public void Break()
+        {
+            if (rib == null) return;
+            rib.simulated = true;
+            Slicer2D.Debug.Log("Slice");
+
+            foreach (var x in listSlice)
             {
-              
+                sliceNode.Add(new Vector2D(x.position));
             }
-            return true;
-        } );
-        sliceableObj.ComplexSlice(sliceNode);
+
+            sliceableObj.AddEvent((Slice2D s) => {
+                List<GameObject> gameObjects = s.GetGameObjects();
+                foreach (var x in gameObjects)
+                {
+
+                }
+                return true;
+            });
+            sliceableObj.ComplexSlice(sliceNode);
+        }
+
     }
-   
 }
+
