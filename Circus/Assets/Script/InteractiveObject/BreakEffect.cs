@@ -8,13 +8,13 @@ namespace InteractiveObj
 {
     public class BreakEffect : MonoBehaviour
     {
-        public List<Transform> listSlice;
+        public List<Transform> sliceMapRef;
         public Sliceable2D sliceableObj;
-        List<Vector2D> sliceNode;
+        List<Vector2D> sliceMap;
         public Rigidbody2D rib;
         private void Start()
         {
-            sliceNode = new();
+            sliceMap = new();
             rib.simulated = false;
 
 
@@ -26,9 +26,9 @@ namespace InteractiveObj
             rib.simulated = true;
             Slicer2D.Debug.Log("Slice");
 
-            foreach (var x in listSlice)
+            foreach (var x in sliceMapRef)
             {
-                sliceNode.Add(new Vector2D(x.position));
+                sliceMap.Add(new Vector2D(x.position));
             }
 
             sliceableObj.AddEvent((Slice2D s) => {
@@ -39,7 +39,7 @@ namespace InteractiveObj
                 }
                 return true;
             });
-            sliceableObj.ComplexSlice(sliceNode);
+            sliceableObj.ComplexSlice(sliceMap);
         }
 
     }
