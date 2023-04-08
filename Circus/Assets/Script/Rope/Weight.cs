@@ -2,7 +2,9 @@ using Slicer2D;
 using UnityEngine;
 using UnityEngine.Events;
 using InteractiveObj;
-public class Weight : MonoBehaviour
+using UnityEngine.UI;
+
+public partial class Weight : MonoBehaviour
 {
 	public UnityEvent OnBreaking;
 	public float distanceFromChainEnd = 0.6f;
@@ -13,6 +15,7 @@ public class Weight : MonoBehaviour
 
     private void Start()
     {
+        
         if (OnBreaking == null)
         {
 			OnBreaking = new UnityEvent();

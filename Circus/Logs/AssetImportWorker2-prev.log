@@ -1,0 +1,508 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7530 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/tiene/OneDrive/Documents/GitHub/CircusTestS/Circus
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+57996
+Successfully changed project path to: C:/Users/tiene/OneDrive/Documents/GitHub/CircusTestS/Circus
+C:/Users/tiene/OneDrive/Documents/GitHub/CircusTestS/Circus
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15656] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3644014351 [EditorId] 3644014351 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M2KDIHE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15656] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3644014351 [EditorId] 3644014351 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M2KDIHE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 108.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path D:/Unity/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tiene/OneDrive/Documents/GitHub/CircusTestS/Circus/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5734
+Initialize mono
+Mono path[0] = 'D:/Unity/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003080 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 103.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.726 seconds
+Domain Reload Profiling:
+	ReloadAssembly (726ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (532ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.031189 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 125.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1830ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1502ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (776ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (126ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (499ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (162.6 KB). Loaded Objects now: 4779.
+Memory consumption went from 162.7 MB to 162.6 MB.
+Total: 7.336100 ms (FindLiveObjects: 1.104200 ms CreateObjectMapping: 0.891000 ms MarkObjects: 5.067300 ms  DeleteObjects: 0.270500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 573008.527708 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Resources/Prefabs/Scenary/Backgrounds/Scenery - Desert.prefab
+  artifactKey: Guid(e943f5e08827a33419f9e293b251447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Resources/Prefabs/Scenary/Backgrounds/Scenery - Desert.prefab using Guid(e943f5e08827a33419f9e293b251447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdaaf21c73749c01499c4b325357a90') in 0.138534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 252.515035 seconds.
+  path: Assets/Script/Rope/Weight.cs
+  artifactKey: Guid(39b654b107fc35d42ba77f8151d7e512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Rope/Weight.cs using Guid(39b654b107fc35d42ba77f8151d7e512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe779a32572831e6c24bbe5a47fe49d') in 0.027486 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011244 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1244ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (985ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (266ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (525ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (414ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (129.1 KB). Loaded Objects now: 4790.
+Memory consumption went from 166.4 MB to 166.3 MB.
+Total: 6.208000 ms (FindLiveObjects: 0.441300 ms CreateObjectMapping: 0.114400 ms MarkObjects: 5.345200 ms  DeleteObjects: 0.304100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1108.194242 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 6 - Terrain Destruction
+  artifactKey: Guid(7dc759bb84f37da40a589eb1fba95f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 6 - Terrain Destruction using Guid(7dc759bb84f37da40a589eb1fba95f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9e0263abbb042179128469539fa0a5') in 0.018881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.342216 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints
+  artifactKey: Guid(cbdd2639b2fcade458e25845d007c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints using Guid(cbdd2639b2fcade458e25845d007c216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bc31ff18a81e05ea0fb00555bf424f') in 0.011155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049612 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Scene7InfoUI.prefab
+  artifactKey: Guid(c99d73ab7a16acd4cba402d02c23233d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Scene7InfoUI.prefab using Guid(c99d73ab7a16acd4cba402d02c23233d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f91f6a467ba5a2a2582c63c60d9622a') in 0.040927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.412697 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab
+  artifactKey: Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab using Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdee7cb889e0e65d85ef4c35099edb88') in 0.034527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.122455 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab
+  artifactKey: Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab using Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f7333b9232f6b47b425c300d6ba19c') in 0.011587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 165.515203 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab
+  artifactKey: Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab using Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdacc5b1531880a9e78d91706f85e268') in 0.020857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.178883 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab
+  artifactKey: Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab using Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2c3e3d16701da65f803634eaed54dd') in 0.012970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.301089 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab
+  artifactKey: Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab using Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1266362a414a640aeeb3e06f62f41253') in 0.011283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.182585 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab
+  artifactKey: Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab using Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a840b334d329fac051843b2f0f578095') in 0.011031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.163940 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab
+  artifactKey: Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab using Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158a2eea089bca2e396f39f4c71afc87') in 0.013885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.410030 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab
+  artifactKey: Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 7 - Joints/Demo7Scene.prefab using Guid(3f1f04f6b70f2954b93a3e1a6ae2a599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f059f9f0429f5c017e8e54e5dd940ad') in 0.011999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.679058 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 3 - Slicing Types
+  artifactKey: Guid(6e86de5837fcc4947a0aa7584900af12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 3 - Slicing Types using Guid(6e86de5837fcc4947a0aa7584900af12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7030510cbcf75d0dccb095896e08faee') in 0.012220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039687 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 3 - Slicing Types/Scene3InfoUI.prefab
+  artifactKey: Guid(76923f209d81c1640b32fd0a5aa187b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 3 - Slicing Types/Scene3InfoUI.prefab using Guid(76923f209d81c1640b32fd0a5aa187b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59dbb6e2640989399a31f9ff297e080') in 0.022488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.916197 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 5 - Slicing Sprites
+  artifactKey: Guid(e6c7128ec6d68ec41b28ee375b0468a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 5 - Slicing Sprites using Guid(e6c7128ec6d68ec41b28ee375b0468a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ff408fa5ab8195d3cb5db700ea5c29') in 0.011139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058498 seconds.
+  path: Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 5 - Slicing Sprites/Scene5InfoUI.prefab
+  artifactKey: Guid(7b348f3b036c7a14bb3b17ee393322d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FunkyCode/Demos - SmartSlicer2D/Scenes/Demo 5 - Slicing Sprites/Scene5InfoUI.prefab using Guid(7b348f3b036c7a14bb3b17ee393322d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9089fdf27ab5f3c4d93343186044bf85') in 0.011718 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009199 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.312 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1312ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1065ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (288ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (457ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (132.9 KB). Loaded Objects now: 4795.
+Memory consumption went from 166.5 MB to 166.4 MB.
+Total: 4.603100 ms (FindLiveObjects: 0.668400 ms CreateObjectMapping: 0.221200 ms MarkObjects: 3.543100 ms  DeleteObjects: 0.169100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 210.974249 seconds.
+  path: Assets/Script/NewBehaviourScript.cs
+  artifactKey: Guid(7771713f67b7c444eb71484119aa4477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/NewBehaviourScript.cs using Guid(7771713f67b7c444eb71484119aa4477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058ab4ae4663f4eceb35f651ab0e91fb') in 0.023445 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1283ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (998ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (262ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (406ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4305 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (129.0 KB). Loaded Objects now: 4799.
+Memory consumption went from 166.5 MB to 166.4 MB.
+Total: 4.572600 ms (FindLiveObjects: 0.596700 ms CreateObjectMapping: 0.127000 ms MarkObjects: 3.671200 ms  DeleteObjects: 0.174500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 304.521194 seconds.
+  path: Assets/Script/NewBehaviourScript.cs
+  artifactKey: Guid(7771713f67b7c444eb71484119aa4477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/NewBehaviourScript.cs using Guid(7771713f67b7c444eb71484119aa4477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cefbc4add5adb1b5b31e34e15eb1ede') in 0.009386 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011047 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.468 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1470ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1172ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (664ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (526ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4304 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (129.0 KB). Loaded Objects now: 4801.
+Memory consumption went from 166.5 MB to 166.4 MB.
+Total: 4.546600 ms (FindLiveObjects: 0.546900 ms CreateObjectMapping: 0.148100 ms MarkObjects: 3.669200 ms  DeleteObjects: 0.180400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
