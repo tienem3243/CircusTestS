@@ -15,7 +15,7 @@ C:/Users/tiene/OneDrive/Documents/GitHub/CircusTestS/Circus
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-57256
+55921
 Successfully changed project path to: C:/Users/tiene/OneDrive/Documents/GitHub/CircusTestS/Circus
 C:/Users/tiene/OneDrive/Documents/GitHub/CircusTestS/Circus
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/tiene/OneDrive/Documents/GitHub/CircusTestS/Circus
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6324] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3124933887 [EditorId] 3124933887 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M2KDIHE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14116] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 434361717 [EditorId] 434361717 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M2KDIHE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6324] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 3124933887 [EditorId] 3124933887 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M2KDIHE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14116] Host "[IP] 192.168.1.3 [Port] 0 [Flags] 2 [Guid] 434361717 [EditorId] 434361717 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M2KDIHE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 122.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 116.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path D:/Unity/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,78 +67,78 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003668 seconds.
+Registered in 0.003817 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 124.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 99.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
+- Completed reload, in  0.719 seconds
 Domain Reload Profiling:
-	ReloadAssembly (941ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (720ms)
+		BeginReloadAssembly (104ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (707ms)
-			LoadAssemblies (116ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (134ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (516ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (459ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (313ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (125ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011810 seconds.
+Registered in 0.010793 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\tiene\OneDrive\Documents\GitHub\CircusTestS\Circus\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 129.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 105.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.161 seconds
+- Completed reload, in  1.610 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2162ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1611ms)
+		BeginReloadAssembly (197ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1813ms)
-			LoadAssemblies (200ms)
+		EndReloadAssembly (1300ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (397ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (1057ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (765ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (130ms)
-				BeforeProcessingInitializeOnLoad (141ms)
-				ProcessInitializeOnLoadAttributes (724ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (505ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +146,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4312 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (162.5 KB). Loaded Objects now: 4779.
 Memory consumption went from 162.7 MB to 162.6 MB.
-Total: 6.223600 ms (FindLiveObjects: 0.617100 ms CreateObjectMapping: 0.171300 ms MarkObjects: 5.089100 ms  DeleteObjects: 0.343800 ms)
+Total: 6.076000 ms (FindLiveObjects: 0.630900 ms CreateObjectMapping: 0.236700 ms MarkObjects: 4.944300 ms  DeleteObjects: 0.262300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,7 +166,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 752169.026357 seconds.
-  path: Assets/Sprite/Capture.PNG
-  artifactKey: Guid(1ce4bd0fb8e3dc745bb9b83c704ea8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprite/Capture.PNG using Guid(1ce4bd0fb8e3dc745bb9b83c704ea8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae66458460a6d1d649d9219f022e803') in 0.277981 seconds 
+  Time since last request: 900797.309980 seconds.
+  path: Assets/skeleton-Hungry_14.png
+  artifactKey: Guid(0b1e872594401ca44a891a51a4b26be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_14.png using Guid(0b1e872594401ca44a891a51a4b26be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1713d846315190c36de3cf1f33cc9caa') in 0.198147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/skeleton-Hungry_17.png
+  artifactKey: Guid(e28c3d9bafaa9e045b3f689859ef325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_17.png using Guid(e28c3d9bafaa9e045b3f689859ef325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5be534a56a5c45aff0d7e9ccf00c6d5') in 0.043753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/skeleton-Hungry_07.png
+  artifactKey: Guid(4379cbe56c8d0e14b81b62abde1666f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_07.png using Guid(4379cbe56c8d0e14b81b62abde1666f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '306ce993a93928bd6e00cf2e148ae2ca') in 0.045582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/skeleton-Hungry_02.png
+  artifactKey: Guid(c4c01526420188044af3f712af1a4e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_02.png using Guid(c4c01526420188044af3f712af1a4e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dc858a8941042e505255547826ed7f') in 0.043825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/skeleton-Hungry_00.png
+  artifactKey: Guid(e50142e867c578147b2274cc8f3a1cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_00.png using Guid(e50142e867c578147b2274cc8f3a1cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726078e903d59437ef51d48831a1cdc3') in 0.043132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/skeleton-Hungry_11.png
+  artifactKey: Guid(43b22818332e7a04bae02dd1bed9a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_11.png using Guid(43b22818332e7a04bae02dd1bed9a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d2ac5ca949596c44978fcd97a8588c') in 0.039715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/skeleton-Hungry_04.png
+  artifactKey: Guid(b3caa3dd7784b4d48a9e432bd8b88b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_04.png using Guid(b3caa3dd7784b4d48a9e432bd8b88b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a5b633ec33f2003693d7dd94f1ad00') in 0.037385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/skeleton-Hungry_09.png
+  artifactKey: Guid(986cf940a780e19408afb63e1491da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_09.png using Guid(986cf940a780e19408afb63e1491da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104528adc14b1bfbaf896bf4f9871ac3') in 0.036587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2125.433358 seconds.
+  path: Assets/skeleton-Hungry_01.png
+  artifactKey: Guid(fe42d8a82b313964993612c80330d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_01.png using Guid(fe42d8a82b313964993612c80330d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96282034a2607d12cf3c62e942080e19') in 0.104070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/skeleton-Hungry_17.png
+  artifactKey: Guid(e28c3d9bafaa9e045b3f689859ef325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_17.png using Guid(e28c3d9bafaa9e045b3f689859ef325d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f693e36c75461ee9ec11facb5f4251') in 0.047320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/skeleton-Hungry_07.png
+  artifactKey: Guid(4379cbe56c8d0e14b81b62abde1666f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_07.png using Guid(4379cbe56c8d0e14b81b62abde1666f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab043fe9a8b4b11a798630565127e933') in 0.050249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/skeleton-Hungry_16.png
+  artifactKey: Guid(c8d60b6c2ae69dc4f9195052d5a0b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_16.png using Guid(c8d60b6c2ae69dc4f9195052d5a0b6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431217a06f3513a59d3ec7c50b7abfd6') in 0.049005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/skeleton-Hungry_15.png
+  artifactKey: Guid(b67f5eb23d659b74fa036025df595bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_15.png using Guid(b67f5eb23d659b74fa036025df595bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122dc08139fdb9a838f92c16f7b10222') in 0.051308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/skeleton-Hungry_18.png
+  artifactKey: Guid(798fd8cc69c022647bdf5b77e85026fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_18.png using Guid(798fd8cc69c022647bdf5b77e85026fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497a503af20fa812ee2dd66c64c2393f') in 0.044618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/skeleton-Hungry_11.png
+  artifactKey: Guid(43b22818332e7a04bae02dd1bed9a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_11.png using Guid(43b22818332e7a04bae02dd1bed9a5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a98766e99ec01efa0275ead6cff5988') in 0.039764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/skeleton-Hungry_13.png
+  artifactKey: Guid(37460c3b118fbcd41bc7444c08cb6139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_13.png using Guid(37460c3b118fbcd41bc7444c08cb6139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95dfef8f347337d3b2b4e316234ecd3b') in 0.053789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/skeleton-Hungry_08.png
+  artifactKey: Guid(f6670abe5c239374b862cca927d48dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_08.png using Guid(f6670abe5c239374b862cca927d48dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaaedb00475105bc8a4d601dac943db') in 0.043562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/skeleton-Hungry_09.png
+  artifactKey: Guid(986cf940a780e19408afb63e1491da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skeleton-Hungry_09.png using Guid(986cf940a780e19408afb63e1491da85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25073550d8c1eacb8f9c25b24591884') in 0.039520 seconds 
