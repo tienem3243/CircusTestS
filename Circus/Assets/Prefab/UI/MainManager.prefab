@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3054883740629218449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3054883740629218451}
+  - component: {fileID: 3054883740629218448}
+  m_Layer: 0
+  m_Name: MainManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3054883740629218451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3054883740629218449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3054883740629218448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3054883740629218449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34a060e5ad28cce45889c22a6dc41b76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UIObject: {fileID: 0}
+  UIBack: {fileID: 0}
+  demoScenes:
+  - {fileID: 5563097894993322400, guid: 7b0147f57c867604d9e36680b4a3c326, type: 3}
+  - {fileID: 1059984371309270, guid: bc0e35bc4d5d68f4f819b99988b50b32, type: 3}
+  - {fileID: 1081119633626504, guid: 7a4e1529a5f87e643987cf3839a9c865, type: 3}
+  - {fileID: 1848092977231396, guid: a49fc66d255d38142a904ee0906e8e12, type: 3}
+  - {fileID: 1861799121888424, guid: 0f01c9d8a4060af44b6eef3093652c28, type: 3}
+  - {fileID: 1057282812170274, guid: ba7bbf3d452052f49a3590ee9841d1cc, type: 3}
+  - {fileID: 1904082288614630, guid: 3f1f04f6b70f2954b93a3e1a6ae2a599, type: 3}
+  - {fileID: 1631580691439962, guid: c1325ac20c4c57640a63ba620b0cee7b, type: 3}
+  - {fileID: 1437218180549548, guid: 0b1ed0be56353da49a5f9beb52b73601, type: 3}
+  - {fileID: 1893886142546114, guid: f3adbc7e8f5a3634ea97ed7681ab9d4c, type: 3}
+  currentSceneID: 0
+  gameScenes:
+  - {fileID: 1046377100037898, guid: d22e96aa00f581b41ba55a344051333b, type: 3}
+  - {fileID: 1426234069790458, guid: 0e95de5d79a5e614582a6342f8f547d4, type: 3}
+  - {fileID: 1922147400984208, guid: 5658f8e1d0557e746ad134dac3353319, type: 3}
+  - {fileID: 1707792140694044, guid: b6022dd06aaaef747a33548e1cbe61c2, type: 3}
+  - {fileID: 0}
+  demoCamera: {fileID: 0}
+  demoUI: {fileID: 0}

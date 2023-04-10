@@ -10,7 +10,7 @@ namespace Character.MoveCharacter {
         [SerializeField] protected float xRange = 3.0f;
         [SerializeField] protected bool moveRight;
         protected Vector3 starPos;
-        protected virtual void Awake()
+        protected virtual void Start()
         {
             this.starPos = transform.position;
         }
