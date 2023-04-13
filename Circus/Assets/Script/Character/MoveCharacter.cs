@@ -22,7 +22,7 @@ namespace Character.MoveCharacter {
         }
         protected virtual void Move()
         {
-            if (GameManger.Instance.isWin || GameManger.Instance.isLose) return;
+            if (GameManager.Instance.isWin || GameManager.Instance.isLose) return;
             if (Turn())
             {
                 transform.parent.Translate(Vector2.right * Time.fixedDeltaTime * moveSpeed);

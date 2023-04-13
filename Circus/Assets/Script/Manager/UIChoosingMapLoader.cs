@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Slicer2D.Demo;
+
 namespace Manager
 {
     public class UIChoosingMapLoader : MonoBehaviour
@@ -34,8 +35,12 @@ namespace Manager
                 });
                 i++;
             }
-            Debug.Log(mapInfo.Length);
+   
 
+        }
+        public void showUI()
+        {
+            board.SetActive(true);
         }
     }
 }

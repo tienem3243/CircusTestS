@@ -5,7 +5,7 @@ using Utilities2D;
 
 namespace Slicer2D {
 
-	[CustomEditor(typeof(Sliceable2D))]
+	[UnityEditor.CustomEditor(typeof(Sliceable2D))]
 	public class Slicer2DEditor : Editor {
 		static bool foldout = true;
 

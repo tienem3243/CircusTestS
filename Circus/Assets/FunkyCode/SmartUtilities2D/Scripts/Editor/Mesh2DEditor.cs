@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Utilities2D {
 	
 	[CanEditMultipleObjects]
-	[CustomEditor(typeof(Mesh2D))]
+	[UnityEditor.CustomEditor(typeof(Mesh2D))]
 	public class Mesh2DEditor : Editor {
 
 		override public void OnInspectorGUI() {

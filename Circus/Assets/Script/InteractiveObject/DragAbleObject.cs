@@ -18,7 +18,7 @@ public class DragAbleObject : MonoBehaviour
     void OnMouseDown()
     {
         isDragging = true;
-        GameManger.Instance.canCut = !isDragging;
+        GameManager.Instance.canCut = !isDragging;
         Debug.Log("call is mouse down method");
     }
 
@@ -26,7 +26,7 @@ public class DragAbleObject : MonoBehaviour
     {
       
         isDragging = false;
-        GameManger.Instance.canCut = !isDragging;
+        GameManager.Instance.canCut = !isDragging;
         Debug.Log("call mouseUp method");
     }
 

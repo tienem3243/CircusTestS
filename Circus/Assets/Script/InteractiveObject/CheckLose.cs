@@ -10,7 +10,7 @@ public class CheckLose : MonoBehaviour
         if(coll.gameObject.CompareTag("Candy"))
         {
             Debug.Log("Lose");
-            GameManger.Instance.isLose = true;
+            GameManager.Instance.isLose = true;
         }
     }
 }

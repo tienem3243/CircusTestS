@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Utilities2D {
 
 	[CanEditMultipleObjects]
-	[CustomEditor(typeof(ColliderLineRenderer2D))]
+	[UnityEditor.CustomEditor(typeof(ColliderLineRenderer2D))]
 	public class ColliderLineRenderer2DEditor : Editor {
 
 		override public void OnInspectorGUI() {

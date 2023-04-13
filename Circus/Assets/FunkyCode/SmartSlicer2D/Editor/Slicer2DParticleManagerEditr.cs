@@ -8,7 +8,7 @@ using System;
 using Slicer2D;
 
 
-[CustomEditor(typeof(Slicer2DParticlesManager))]
+[UnityEditor.CustomEditor(typeof(Slicer2DParticlesManager))]
 public class Slicer2DParticlesManagerEditor : Editor {
     static bool foldout = true;
 

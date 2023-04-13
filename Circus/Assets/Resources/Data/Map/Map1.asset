@@ -13,7 +13,6 @@ MonoBehaviour:
   m_Name: Map1
   m_EditorClassIdentifier: 
   id: 1
-  name: 1
-  star: 1
+  mapName: 
+  star: 0
   playAble: 1
-  posCamera: {x: 21, y: 0, z: -10}

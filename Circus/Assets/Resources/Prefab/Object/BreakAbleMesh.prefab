@@ -615,7 +615,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20b7d217bda7cc47af49696cc4eee75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sliceMapRef: []
+  sliceMapRef:
+  - {fileID: 6910428536616762261}
+  - {fileID: 6910428537181133353}
+  - {fileID: 6910428537091027006}
+  - {fileID: 6910428538276980206}
+  - {fileID: 6910428537662827441}
+  - {fileID: 6910428537303827479}
   sliceableObj: {fileID: 6910428537980254820}
   rib: {fileID: 6910428537980254822}
 --- !u!1 &6910428538276980207
