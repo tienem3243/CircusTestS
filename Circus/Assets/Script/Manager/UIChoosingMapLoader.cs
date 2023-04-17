@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Slicer2D.Demo;
+using System.Collections;
 
 namespace Manager
 {
@@ -15,11 +16,13 @@ namespace Manager
         }
         private void Start()
         {
-            loadMapButtonDetail();
+            
+           StartCoroutine( loadMapButtonDetail());
         }
-        [ContextMenu("Load Map")]
-        public void loadMapButtonDetail()
+
+        public IEnumerator loadMapButtonDetail()
         {
+            yield return new WaitUntil(() => MapManager.Instance.getMapsInfo() != null);
             var mapInfo = MapManager.Instance.getMapsInfo();
             int i = 0;
             foreach (var map in mapInfo)

@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 namespace Manager
 {
-    public class MapManager : MonoBehaviourSingletonPersistent<MapManager>
+    public class MapManager : MonoBehaviourSingleton<MapManager>
     {
         private string mapNameFolder = "Map/";
         public RectTransform UIChoosingMap;
