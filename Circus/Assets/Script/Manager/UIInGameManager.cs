@@ -5,14 +5,12 @@ namespace Manager
 {
     public partial class UIInGameManager : MonoBehaviourSingleton<UIInGameManager>
     {
-        [SerializeField] public ShowStar ShowStar;
+        [SerializeField] public List<ShowStar> ShowStar;
         [SerializeField] private GameObject UiWinGame;
         [SerializeField] private GameObject UiInGame;
         public void ReStartMap()
         {
             MapManager.Instance.SetGame(MapManager.Instance.currentSceneID);
-            UiWinGame.gameObject.SetActive(false);
-            Debug.Log("call this method");
             ResetGame();
 
         }
@@ -20,14 +18,15 @@ namespace Manager
         {
             //MapManager.Instance.SetGame(MapManager.Instance.currentSceneID);
             //MapManager.Instance.UICamera.gameObject.SetActive(true);
-            UiWinGame.gameObject.SetActive(false);
+            //UiWinGame.gameObject.SetActive(false);
             ResetGame();
         }
         public void NextMap()
         {
             if (!MapManager.Instance.getMapInfoByID(MapManager.Instance.currentSceneID + 1).playAble) return;
             MapManager.Instance.NextGame();
-            UiWinGame.gameObject.SetActive(false);
+            //UiWinGame.gameObject.SetActive(false);
+            //UiInGame.gameObject.SetActive(true);
             ResetGame();
         }
         public void PrevMap()
@@ -38,7 +37,10 @@ namespace Manager
         }
         public void EatStar()
         {
-            ShowStar.disPlayStarGamePlay(GameManager.Instance.countStart);
+           foreach(ShowStar item in ShowStar)
+            {
+                item.disPlayStarGamePlay(GameManager.Instance.countStart);
+            }
         }
         public void disPlayUiInGame()
         {
@@ -53,7 +55,10 @@ namespace Manager
             GameManager.Instance.isWin = false;
             GameManager.Instance.isLose = false;
             if (GameManager.Instance.countStart == 0) return;
-            ShowStar.disPlayNoneStarInGame(GameManager.Instance.countStart);
+            foreach (ShowStar item in ShowStar)
+            {
+                item.disPlayNoneStarInGame(GameManager.Instance.countStart);
+            }
             GameManager.Instance.countStart = 0;
         }
 

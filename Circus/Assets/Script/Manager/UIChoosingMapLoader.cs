@@ -33,6 +33,7 @@ namespace Manager
                 info.displayLevelIndex(j);
                 info.onClick?.AddListener(() =>
                 {
+                    UIInGameManager.Instance.disPlayUiInGame();
                     MapManager.Instance.SetGame(j);
                     board.SetActive(false);
                 });

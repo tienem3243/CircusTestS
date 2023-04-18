@@ -19,12 +19,25 @@ namespace Manager
         private void FixedUpdate()
         {
             this.WinGame();
+            this.LoseGame();
+
         }
         public void WinGame()
         {
             if (!isWin) return;
             MapManager.Instance.getMapInfoByID(MapManager.Instance.currentSceneID + 1).playAble = true;
             this.Win();
+        }
+        public void LoseGame()
+        {
+            if (!isLose) return;
+            GameManager.Instance.isLose = false;
+            this.Lose();
+            
+        }
+        public void ReloadMap()
+        {
+            MapManager.Instance.SetGame(MapManager.Instance.currentSceneID);
         }
     }
 }
