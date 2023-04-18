@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Map2
   m_EditorClassIdentifier: 
   id: 2
-  mapName: 
-  star: 2
+  mapName: Map2
+  star: 0
   playAble: 1

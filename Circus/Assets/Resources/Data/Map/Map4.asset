@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Map4
   m_EditorClassIdentifier: 
   id: 4
-  mapName: 
-  star: 5
+  mapName: Map4
+  star: 0
   playAble: 0

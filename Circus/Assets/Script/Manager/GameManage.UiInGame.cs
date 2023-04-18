@@ -25,7 +25,7 @@ namespace Manager
         public void WinGame()
         {
             if (!isWin) return;
-            MapManager.Instance.getMapInfoByID(MapManager.Instance.currentSceneID + 1).playAble = true;
+            MapManager.Instance.setDataMap(MapManager.Instance.currentSceneID);
             this.Win();
         }
         public void LoseGame()

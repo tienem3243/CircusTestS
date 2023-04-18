@@ -74,7 +74,18 @@ namespace Manager
             mapInfos = loadMapInfo("Data/" + mapNameFolder);
         }
 
-
+        public bool CheckPlayEble( int id)
+        {
+            return getMapInfoByID(id).playAble;
+        }
+        public void setDataMap(int id)
+        {
+            if (!GameManager.Instance.isWin) return;
+            MapInfo currentMap = getMapInfoByID(id);
+            currentMap.star = GameManager.Instance.countStart;
+            MapInfo nextMap = getMapInfoByID(id + 1);
+            nextMap.playAble = true;
+        }
     }
 
 }
