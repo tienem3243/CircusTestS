@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 namespace Manager
 {
-    public partial class GameManager : MonoBehaviourSingletonPersistent<GameManager>
+    public partial class GameManager : MonoBehaviourSingleton<GameManager>
     {
 
         public bool isWin = false;

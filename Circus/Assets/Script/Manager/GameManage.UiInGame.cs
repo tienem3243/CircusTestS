@@ -14,7 +14,6 @@ namespace Manager
         public void UiWInGame()
         {
             UIInGameManager.Instance.disPlayUiWinGame();
-            Debug.Log("call this method");
         }
         private void FixedUpdate()
         {
@@ -37,7 +36,7 @@ namespace Manager
         }
         public void ReloadMap()
         {
-            MapManager.Instance.SetGame(MapManager.Instance.currentSceneID);
+            UIInGameManager.Instance.ReStartMap();
         }
     }
 }
